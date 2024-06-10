@@ -1,0 +1,587 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcart1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|solutionrelative:shoppingcart1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcart1\\views\\cart\\editcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|solutionrelative:shoppingcart1\\views\\cart\\editcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcart1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|solutionrelative:shoppingcart1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcart1\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|solutionrelative:shoppingcart1\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27D7C17-1148-4D4F-926C-910E48F966A4}|ShoppingCartLibrary\\ShoppingCartLibrary.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcartlibrary\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27D7C17-1148-4D4F-926C-910E48F966A4}|ShoppingCartLibrary\\ShoppingCartLibrary.csproj|solutionrelative:shoppingcartlibrary\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27D7C17-1148-4D4F-926C-910E48F966A4}|ShoppingCartLibrary\\ShoppingCartLibrary.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcartlibrary\\productdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27D7C17-1148-4D4F-926C-910E48F966A4}|ShoppingCartLibrary\\ShoppingCartLibrary.csproj|solutionrelative:shoppingcartlibrary\\productdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcart1\\views\\cart\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|solutionrelative:shoppingcart1\\views\\cart\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27D7C17-1148-4D4F-926C-910E48F966A4}|ShoppingCartLibrary\\ShoppingCartLibrary.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcartlibrary\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27D7C17-1148-4D4F-926C-910E48F966A4}|ShoppingCartLibrary\\ShoppingCartLibrary.csproj|solutionrelative:shoppingcartlibrary\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27D7C17-1148-4D4F-926C-910E48F966A4}|ShoppingCartLibrary\\ShoppingCartLibrary.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcartlibrary\\shoppingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27D7C17-1148-4D4F-926C-910E48F966A4}|ShoppingCartLibrary\\ShoppingCartLibrary.csproj|solutionrelative:shoppingcartlibrary\\shoppingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcart1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|solutionrelative:shoppingcart1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcart1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|solutionrelative:shoppingcart1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcart1\\views\\cart\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|solutionrelative:shoppingcart1\\views\\cart\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcart1\\views\\product\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|solutionrelative:shoppingcart1\\views\\product\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcart1\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|solutionrelative:shoppingcart1\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27D7C17-1148-4D4F-926C-910E48F966A4}|ShoppingCartLibrary\\ShoppingCartLibrary.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcartlibrary\\cartdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27D7C17-1148-4D4F-926C-910E48F966A4}|ShoppingCartLibrary\\ShoppingCartLibrary.csproj|solutionrelative:shoppingcartlibrary\\cartdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27D7C17-1148-4D4F-926C-910E48F966A4}|ShoppingCartLibrary\\ShoppingCartLibrary.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcartlibrary\\icartdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27D7C17-1148-4D4F-926C-910E48F966A4}|ShoppingCartLibrary\\ShoppingCartLibrary.csproj|solutionrelative:shoppingcartlibrary\\icartdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcart1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|solutionrelative:shoppingcart1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcart1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8A0582C3-7968-43D3-9041-6F8EB1D90642}|ShoppingCart1\\ShoppingCart1.csproj|solutionrelative:shoppingcart1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27D7C17-1148-4D4F-926C-910E48F966A4}|ShoppingCartLibrary\\ShoppingCartLibrary.csproj|c:\\users\\hp\\source\\repos\\shoppingcart1\\shoppingcartlibrary\\iproductdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27D7C17-1148-4D4F-926C-910E48F966A4}|ShoppingCartLibrary\\ShoppingCartLibrary.csproj|solutionrelative:shoppingcartlibrary\\iproductdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 72,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3fd5e0cc-709a-4f8c-94c3-7f0f8dff5bb2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:23:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:29:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:32:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:36:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:39:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:42:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:45:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:48:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:30:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:33:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCartLibrary\\Product.cs",
+              "RelativeDocumentMoniker": "ShoppingCartLibrary\\Product.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCartLibrary\\Product.cs",
+              "RelativeToolTip": "ShoppingCartLibrary\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-17T17:51:39.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductDataAccessLayer.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCartLibrary\\ProductDataAccessLayer.cs",
+              "RelativeDocumentMoniker": "ShoppingCartLibrary\\ProductDataAccessLayer.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCartLibrary\\ProductDataAccessLayer.cs",
+              "RelativeToolTip": "ShoppingCartLibrary\\ProductDataAccessLayer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-17T17:56:40.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "ShoppingCart1\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "ShoppingCart1\\Views\\Cart\\Checkout.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-08-17T22:00:00.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Views\\Cart\\EditCart.cshtml",
+              "RelativeDocumentMoniker": "ShoppingCart1\\Views\\Cart\\EditCart.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Views\\Cart\\EditCart.cshtml",
+              "RelativeToolTip": "ShoppingCart1\\Views\\Cart\\EditCart.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAFsAAAB1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-08-17T19:29:52.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ShoppingCart1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ShoppingCart1\\Views\\Shared\\_Layout.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-08-17T18:25:11.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ShoppingCart1\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ShoppingCart1\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwDcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-17T18:21:42.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCartLibrary\\CartItem.cs",
+              "RelativeDocumentMoniker": "ShoppingCartLibrary\\CartItem.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCartLibrary\\CartItem.cs",
+              "RelativeToolTip": "ShoppingCartLibrary\\CartItem.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-17T17:55:50.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShoppingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCartLibrary\\ShoppingDbContext.cs",
+              "RelativeDocumentMoniker": "ShoppingCartLibrary\\ShoppingDbContext.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCartLibrary\\ShoppingDbContext.cs",
+              "RelativeToolTip": "ShoppingCartLibrary\\ShoppingDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-17T17:54:23.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Views\\Cart\\ProductDetails.cshtml",
+              "RelativeDocumentMoniker": "ShoppingCart1\\Views\\Cart\\ProductDetails.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Views\\Cart\\ProductDetails.cshtml",
+              "RelativeToolTip": "ShoppingCart1\\Views\\Cart\\ProductDetails.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-08-17T21:49:29.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Program.cs",
+              "RelativeDocumentMoniker": "ShoppingCart1\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Program.cs",
+              "RelativeToolTip": "ShoppingCart1\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T10:40:04.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ShoppingCart1\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ShoppingCart1\\Controllers\\ProductController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-17T18:19:36.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ViewCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Views\\Cart\\ViewCart.cshtml",
+              "RelativeDocumentMoniker": "ShoppingCart1\\Views\\Cart\\ViewCart.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Views\\Cart\\ViewCart.cshtml",
+              "RelativeToolTip": "ShoppingCart1\\Views\\Cart\\ViewCart.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-08-17T21:04:06.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Views\\Product\\Search.cshtml",
+              "RelativeDocumentMoniker": "ShoppingCart1\\Views\\Product\\Search.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Views\\Product\\Search.cshtml",
+              "RelativeToolTip": "ShoppingCart1\\Views\\Product\\Search.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-08-17T19:44:39.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "ShoppingCart1\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "ShoppingCart1\\Views\\Product\\Details.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-08-17T18:50:37.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CartDataAccessLayer.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCartLibrary\\CartDataAccessLayer.cs",
+              "RelativeDocumentMoniker": "ShoppingCartLibrary\\CartDataAccessLayer.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCartLibrary\\CartDataAccessLayer.cs",
+              "RelativeToolTip": "ShoppingCartLibrary\\CartDataAccessLayer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-17T21:09:15.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ICartDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCartLibrary\\ICartDataAccess.cs",
+              "RelativeDocumentMoniker": "ShoppingCartLibrary\\ICartDataAccess.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCartLibrary\\ICartDataAccess.cs",
+              "RelativeToolTip": "ShoppingCartLibrary\\ICartDataAccess.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-17T17:57:31.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShoppingCart1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ShoppingCart1\\Views\\Home\\Index.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-08-17T18:27:09.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ShoppingCart1\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCart1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ShoppingCart1\\wwwroot\\css\\site.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2023-08-17T21:48:26.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IProductDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCartLibrary\\IProductDataAccess.cs",
+              "RelativeDocumentMoniker": "ShoppingCartLibrary\\IProductDataAccess.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\ShoppingCart1\\ShoppingCartLibrary\\IProductDataAccess.cs",
+              "RelativeToolTip": "ShoppingCartLibrary\\IProductDataAccess.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-17T17:57:02.014Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

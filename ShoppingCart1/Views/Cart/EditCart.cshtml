@@ -1,0 +1,103 @@
+﻿@model ShoppingCartLibrary.CartItem
+
+@{
+    ViewData["Title"] = "EditCart";
+}
+<style>
+    .control-label{
+        text-decoration: bold;
+       
+    }
+
+    .control {
+        text-decoration: bold;
+        position: absolute;
+        top: 30%;
+        left: 30%;
+    }
+
+   
+    .product {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .product-image img {
+        width: 150px;
+        height: auto;
+        position: absolute;
+        top: 35%;
+        left: 30%;
+    }
+   
+</style>
+
+<h1>EditCart</h1>
+
+<h4>CartItem</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditCart">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"><strong>@Html.DisplayNameFor(model => model.Id)</strong></label>
+                
+                @*  <input asp-for="Id" class="form-control" readonly="readonly" />
+                <span asp-validation-for="Id" class="text-danger"></span> *@
+                <div> <span>@Model.Id</span></div>
+            </div>
+           
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"><strong>@Html.DisplayNameFor(model => model.productName)</strong></label>
+                @* <input asp-for="productName" class="form-control" readonly="readonly" />
+                <span asp-validation-for="productName" class="text-danger"></span> *@
+                <div> <span>@Model.productName</span></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"><strong>@Html.DisplayNameFor(model => model.productDescription)</strong></label>
+                @* <input asp-for="productDescription" class="form-control" readonly="readonly" />
+                <span asp-validation-for="productDescription" class="text-danger"></span> *@
+                <div><span>@Model.productDescription</span></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"><strong>@Html.DisplayNameFor(model => model.price)</strong></label>
+               @*  <input asp-for="price" class="form-control" readonly="readonly" />
+                <span asp-validation-for="price" class="text-danger"></span> *@
+                <div>  <span>@Model.price</span></div>
+            </div>
+            <div class="product-image">
+                <label asp-for="Id" class="control"><strong>@Html.DisplayNameFor(model => model.imageUrl)</strong></label>
+                @*  <input asp-for="imageUrl" class="form-control" readonly="readonly" />
+                <span asp-validation-for="imageUrl" class="text-danger"></span> *@
+                <div class="product-image">
+                    <img src="@Model.imageUrl" alt="@Model.productName" class="img-thumbnail" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"><strong>@Html.DisplayNameFor(model => model.categoryName)</strong></label>
+                @* <input asp-for="categoryName" class="form-control" readonly="readonly" />
+                <span asp-validation-for="categoryName" class="text-danger"></span> *@
+                <div><span>@Model.categoryName</span></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"><strong>@Html.DisplayNameFor(model => model.quantity)</strong></label>
+                <input asp-for="quantity" class="form-control" />
+                <span asp-validation-for="quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                @Html.ActionLink("Back", "ViewCart", new { id=Model.Id },htmlAttributes:new{@class="btn btn-danger"})
+            </div>
+            
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

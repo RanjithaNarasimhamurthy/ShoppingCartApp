@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ShoppingCartLibrary.Product>
+
+@{
+    ViewData["Title"] = "All Products";
+}
+@if (TempData["SearchMessage"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["SearchMessage"]
+    </div>
+}
+
+<style>
+    .product {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .product-image img {
+        width: 100px;
+        height: auto;
+    }
+
+    .product-details {
+        margin-left: 30%;
+    }
+
+    .add-to-cart-button {
+        margin-left: auto;
+    }
+</style>
+
+<h1>All Products</h1>
+
+<div class="product-list">
+    @foreach (var product in Model)
+    {
+        <div class="product">
+            <div class="product-image">
+                <img src="@product.imageUrl" alt="@product.productName" class="img-thumbnail" />
+            </div>
+            <div class="product-details">
+                <h3>@product.productName</h3>
+                <p>@product.productDescription</p>
+            </div>
+            <div class="add-to-cart-button">
+                <p><strong>Price: Rs.@product.price</strong></p>
+                <form method="post" asp-controller="Cart" asp-action="AddToCart">
+                    <input type="hidden" name="productId" value="@product.Id" />
+                    <button type="submit" class="btn btn-primary">Add To Cart</button>
+                </form>
+            </div>
+        </div>
+        <hr />
+    }
+</div>
