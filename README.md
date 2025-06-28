@@ -67,15 +67,15 @@ Open your browser at https://localhost:5001
 
 Front-End Navigation
 
-Index.cshtml (Home)
+### Index.cshtml (Home)
 
 Displays navigation menu, search bar, and links to Products and Cart.
 
-Search.cshtml
+### Search.cshtml
 
 Lists products matching the searched category. If none match, shows an error and all products.
 
-ViewCart.cshtml
+### ViewCart.cshtml
 
 Shows cart items, quantities, and total cost. Prompts on add-to-cart:
 
@@ -83,23 +83,23 @@ Shows cart items, quantities, and total cost. Prompts on add-to-cart:
 
 “Product already exists in the cart”
 
-Edit.cshtml
+### Edit.cshtml
 
 Update item quantity in cart; saves changes to the database.
 
-Delete.cshtml
+### Delete.cshtml
 
 Remove an item by ID with a single click.
 
-ProductDetails.cshtml
+### ProductDetails.cshtml
 
 Detailed information view for each product.
 
-CheckOut.cshtml
+### CheckOut.cshtml
 
 Final order confirmation page after placing the order.
 
-Areas for Improvement
+## Areas for Improvement
 
 Validate quantity input (non-zero, within data-type limits)
 
