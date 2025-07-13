@@ -33,11 +33,17 @@ An ASP.NET Core MVC application for an online shopping store featuring product l
 ## Project Structure
 
 /Models # POCO classes representing products, carts, etc.
+
 /Data # DbContext, configuration, migrations
+
 /Interfaces # Repository interfaces for data operations
+
 /Repositories # Concrete implementations of data access
+
 /Controllers # MVC controllers (HomeController, CartController, etc.)
+
 /Views # Razor views (Index, Search, ViewCart, Edit, Delete, ProductDetails, CheckOut)
+
 /wwwroot # Static assets (CSS, JS, images)
 
 ---
